@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>TechLambda Home Page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <!--header-->
+    <div id="header">
+        <!--logo-->
+        <div class="full-logo">
+            <img src="../image/full png.png" alt="TechLambdaLogo" style="height: 5rem;">
+        </div>
+        <div class="circle-logo" style="display: none;">
+            <img src="../image/circle logo.png" alt="TechLambdaLogo" style="height: 4rem;">
+        </div>
+        <i class="fa fa-bars" id="bar"></i>
+        <!--menu-->
+        <ul id="menu">
+            <i class="fa fa-times" id="close-icon"></i>
+            <li><a href="index.html" id="index">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="service.html">Services</a></li>
+            <!-- <li><a>Testimonials</a></li> -->
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!--home banner-->
+    <div id="home-banner">
+        <!-- <img src="pexels-lexovertoom-1109543.jpg" style="height: 100%; width:100%; opacity:70%;position:absolute;"> -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
+            style="height: 100%; width:100%;opacity:50%;position:absolute;">
+            <div class="carousel-inner" style="width: 100%; height:100%; display:flex; align-items:center;">
+                <div class="carousel-item active">
+                    <img src="../image/pexels-lexovertoom-1109543.jpg" class="d-block w-100" alt="Carousel Image">
+                </div>
+                <div class="carousel-item">
+                    <img src="../image/pexels-pixabay-459653.jpg" class="d-block w-100" alt="Carousel Image">
+                </div>
+                <div class="carousel-item">
+                    <img src="../image/pexels-olly-927022.jpg" class="d-block w-100" alt="Carousel Image">
+                </div>
+            </div>
+            </div>
+        <div id="home-banner-text-box">
+            <h1>Your <span style="color: var(--orange);">Vision,</span> <br> Our <span
+                    style="color: var(--orange)">Technology</h1>
+            <p>Delivering industry specific customized solutions <br>for  high productivity and efficient management.</p>
+            <a label="Contact Us" class="orange-button" href="contact.html">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="main-container-div" id="main-container-div-home">
+    <!--welcome message-->
+    <div id="welcome-div">
+        <img src="../image/pexels-fauxels-3184431.jpg" style="box-shadow: var(--dropshadoweffect);">
+        <div style="display: flex;flex-direction:column;gap:1rem;margin-left:2rem;align-items:flex-start">
+            <h1 style="font-weight: bold;">Welcome To <span style="color: var(--orange);">TechLambda</span></h1>
+            <p>
+                TechLambda is your trustworthy partner in technology development and management of softwares.
+                We guarantee availability and quick response with our experienced experts. We offer solutions that are efficient, reliable, accurate, robust and secure. Our expertise in technology and industry facilitates flexible and scalable services. 
+                We utilise advanced technologies and processes to ensure transparent and available services.
+            </p>
+            <a label="Learn More" class="orange-button"  href="about.html">Learn More</a>
+        </div>
+    </div>
+
+    <!--featured services-->
+    <div id="featured-div">
+        <h1 style="font-weight: bold;">Our Featured Services</h1>
+        <div class="card-container swiper">
+            <div class="slide-content slide-content-1">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide service-card">
+                        <img src="../image/undraw_App_wireframe_re_d467.png">
+                        <h3 style="font-weight: bold; font-size:1.5rem;text-align:center">Mobile App Development</h3>
+                        <p>
+                            Build mobile apps for Android and iPhone to provide users with an
+                            seamless and user friendly experience of your brand and services. 
+                        </p>
+                        <a label="Learn More" class="black-button" href="service.html">Learn More</a>
+                    </div>
+                    <div class="card swiper-slide service-card">
+                        <img src="../image/undraw_Proud_coder_re_exuy.png">
+                        <h3 style="font-weight: bold; font-size:1.5rem">Web Development</h3>
+                        <p>
+                            Transform your digital presence though web portals with great design
+                            and enhanced functionality. We develop secure and fast websites.
+
+                        </p>
+                         <a label="Learn More" class="black-button" href="service.html">Learn More</a>
+                    </div>
+                    <div class="card swiper-slide service-card">
+                        <img src="../image/undraw_Web_developer_re_h7ie.png">
+                        <h3 style="font-weight: bold; font-size:1.5rem">UI / UX Development</h3>
+                        <p>
+                            Deliver incredible experiences to your users through apps and web
+                            Portals. We create platforms that offer seamless features and flow.
+                        </p>
+                         <a label="Learn More" class="black-button" href="service.html">Learn More</a>
+                    </div>
+                    <div class="card swiper-slide service-card">
+                        <img src="../image/undraw_Teaching_re_g7e3.png">
+                        <h3 style="font-weight: bold; font-size:1.5rem">IT Training & Consultancy</h3>
+                        <p>
+                            We nurture efficient human resources and IT professionals who can  
+                            deliver innovative solutions with high dedication and morale.
+                        </p>
+                         <a label="Learn More" class="black-button" href="service.html">Learn More</a>
+                    </div>
+                    <div class="card swiper-slide service-card">
+                        <img src="../image/undraw_Social_notifications_re_xcbi.png">
+                        <h3 style="font-weight: bold; font-size:1.5rem">Digital Marketing</h3>
+                        <p>
+                            Be at the reach of your consumer bases round the clock by achieving 
+                            maximum visibility on cross platform devices with our agile strategies.
+                        </p>
+                         <a label="Learn More" class="black-button" href="service.html">Learn More</a>
+                    </div>
+                    <div class="card swiper-slide service-card">
+                        <img src="../image/undraw_Programming_re_kg9v.png">
+                        <h3 style="font-weight: bold; font-size:1.5rem">Software Development</h3>
+                        <p>
+                            Enhance profitability of your business by developing efficient 
+                            softwares and programs that are secure, reliable and cost-effective.
+                        </p>
+                         <a label="Learn More" class="black-button" href="service.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next button-next-1 swiper-navBtn"></div>
+            <div class="swiper-button-prev button-prev-1 swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <a label="Learn More" class="orange-button" href="service.html">View All Services</a>
+    </div>
+
+    <!-- Why Techlambda Section -->
+
+    <div id="knowledge-div">
+        <h1 style="font-weight: bold;">Why TechLambda?</h1>
+        <div class="card-container techlambda-card-container">
+            <div class="service-card">
+                <img src="../image/undraw_lightbulb_moment_re_ulyo.png">
+                <h3 style="font-weight: bold; font-size:1.5rem;">Proven Expertise</h3>
+                <p>
+                    Our experts are updated with the latest developments in technology.
+                    Our solutions develop your exclusive niche in a competitive market.
+                </p>
+            </div>
+            <div class="service-card">
+                <img src="../image/undraw_My_answer_re_k4dv.png">
+                <h3 style="font-weight: bold; font-size:1.5rem">Innovative Approach</h3>
+                <p>
+                    We break the barriers of rigid development process to provide frugal
+                    Solutions for higher performance yet with minimalistic design.
+                </p>
+            </div>
+            <div class="service-card">
+                <img src="../image/undraw_Solution_mindset_re_57bf.png">
+                <h3 style="font-weight: bold; font-size:1.5rem">Tailored Solutions</h3>
+                <p>
+                    Our developers has experience of developing industry specific
+                    programs that are specially made to deliver definite outcomes.
+                </p>
+            </div>
+            <!-- <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div> -->
+        </div>
+    </div>
+
+    <!-- client review  -->
+    <div id="client-div">
+        <h1 style="font-weight: bold;">Client's Review</h1>
+        <div class="card-container swiper" style="max-width: 70rem;">
+            <div class="slide-content slide-content-2">
+                <div class="card-wrapper swiper-wrapper" style="max-height: 20rem;">
+                    <div class="card-review card swiper-slide service-card">
+                        <p>
+                            "I am currently taking a Selenium Java Course with Tech Lambda and planning for the next one.
+                            Very good service, great content and Good Teacher.
+                            I will absolutely recommend Tech Lambda and I will continue to take courses with them.
+                            "
+                        </p>
+                        <div style="display: flex;justify-content:flex-start;width:100%;align-items:center; position: absolute; bottom: 1.5rem;left: 2rem;">
+                            <i class="fa fa-user" style="height: 4rem; width:4rem; background-color:var(--orange);font-size:2rem;display:flex;align-items:center;justify-content:center;color:white;border-radius:50%"></i>
+                            <p style="margin-left: .5rem;font-weight:500;text-align:left;"> Alten</p>
+                        </div>
+                    </div>
+                    <div class="card-review card swiper-slide service-card">
+                        <p>
+                            "Great team for students! They ensure tutors commit to their promises, a big plus for remote learning. They find skilled tutors with clear communication. I'm enrolled and planning more courses with them—they deliver results others don't. Honest opinion."
+                        </p>
+                        <div style="display: flex;justify-content:flex-start;width:100%;align-items:center; position: absolute; bottom: 1.5rem;left: 2rem;">
+                            <i class="fa fa-user" style="height: 4rem; width:4rem; background-color:var(--orange);font-size:2rem;display:flex;align-items:center;justify-content:center;color:white;border-radius:50%"></i>
+                            <p style="margin-left: .5rem;font-weight:500;text-align:left;">Ali(Farooq)</p>
+                        </div>
+                    </div>
+                    <div class="card-review card swiper-slide service-card">
+                        <p>"I've been with Lambda People for 6 months, and they are the best. Out of 500 teachers I've worked with, none compare. They offer great content, punctuality, adaptability, and fairness. I learned Android Mobile Development from them and highly recommend their services.
+                            "</p>
+                        <div style="display: flex;justify-content:flex-start;width:100%;align-items:center; position: absolute; bottom: 1.5rem;left: 2rem;">
+                            <i class="fa fa-user" style="height: 4rem; width:4rem; background-color:var(--orange);font-size:2rem;display:flex;align-items:center;justify-content:center;color:white;border-radius:50%"></i>
+                            <p style="margin-left: .5rem;font-weight:500;text-align:left;">Pankaj</p>
+                        </div>
+                    </div>
+                    <div class="card-review card swiper-slide service-card">
+                        <p>"Patient, Honest and Professional with very good technical knowledge. I will engage the service again."</p>
+                        <div style="display: flex;justify-content:flex-start;width:100%;align-items:center; position: absolute; bottom: 1.5rem;left: 2rem;">
+                            <i class="fa fa-user" style="height: 4rem; width:4rem; background-color:var(--orange);font-size:2rem;display:flex;align-items:center;justify-content:center;color:white;border-radius:50%"></i>
+                            <p style="margin-left: .5rem;font-weight:500;text-align:left;">Ivan</p>
+                        </div>
+                    </div>
+                    <div class="card-review card swiper-slide service-card">
+                        <p>"Very good service. fast responding and good teachers."</p>
+                        <div style="display: flex;justify-content:flex-start;width:100%;align-items:center; position: absolute; bottom: 1.5rem;left: 2rem;">
+                            <i class="fa fa-user" style="height: 4rem; width:4rem; background-color:var(--orange);font-size:2rem;display:flex;align-items:center;justify-content:center;color:white;border-radius:50%"></i>
+                            <p style="margin-left: .5rem;font-weight:500;text-align:left;">Lubana</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next button-next-2 swiper-navBtn"></div>
+            <div class="swiper-button-prev button-prev-2 swiper-navBtn"></div>
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+    </div>
+</div>
+
+    <!-- footer -->
+    <div id="footer">
+        <div id="footer-main-container">
+        <div id="footer-main">
+            <div id="map-div">
+                <h1 style="color: white;">Tech<span style="color: var(--orange);margin-bottom:0">Lambda</span></h1>
+                <hr style="border-color:rgba(153, 153, 153, .25); width:100%; height:1px;margin:0;opacity:1">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d773.4778485159966!2d76.92410041899856!3d28.40529528424471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d3dfbfbdaecf3%3A0x4861c88993bae361!2sAnant%20Raj%20Maceo!5e0!3m2!1sen!2sin!4v1719059227636!5m2!1sen!2sin"
+                    width="100%" height="80%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="quick-links">
+                <h1 style="color: white;">Quick Links</h1>
+                <hr style="border-color:rgba(153, 153, 153, .25); width:100%; height:1px;margin:0; opacity:1">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <!-- <li><a href="">Testimonials</a></li> -->
+                    <li><a href="privacyandpolicy.html">Privacy & Policy</a></li>
+                    <li><a href="termsandcondition.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div id="contact-div">
+                <h1 style="color: white;">Contact Info</h1>
+                <hr style="border-color:rgba(153, 153, 153, .25); width:100%; height:1px;margin:0; opacity:1">
+                <div style="display: flex;flex-direction:column;justify-content:flex-start;color:white;gap:1rem">
+                    <div style="display: flex;align-items:center">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#F38927">
+                            <path
+                                d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z" />
+                        </svg>
+                        <p style="margin-left: 1rem">MON TO FRI 10AM-6PM <br> 9312238530</p>
+                    </div>
+                    <div style="display: flex;align-items:center">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#F38927">
+                            <path
+                                d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z" />
+                        </svg>
+                        <p style="margin-left: 1rem">info@techlambda.com</p>
+                    </div>
+                    <div style="display: flex;align-items:center">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#F38927">
+                            <path
+                                d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z" />
+                        </svg>
+                        <p style="margin-left: 1rem">M-1401, Anant Raj Maceo,<br>
+                            Sector 91,<br>
+                            Gurugram 122505, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display:flex;flex-direction:column;bottom:0;gap:1rem">
+            <hr style="border-color:rgba(153, 153, 153, .25); width:100%; height:1px;margin:0;opacity:1">
+            <div id="copyright-div">
+                <div id="social" style="display: flex;align-items:center">
+                    <i class="fab fa-instagram" aria-hidden="true"
+                        style="color: var(--orange); height:24px; width: 24px"></i>
+                    <i class="fab fa-facebook" aria-hidden="true"
+                        style="color: var(--orange); height:24px; width: 24px"></i>
+                    <i class="fab fa-twitter" aria-hidden="true" style="color: var(--orange); height:24px; width: 24px"></i>
+                    <i class="fab fa-youtube" aria-hidden="true" style="color: var(--orange); height:24px; width: 24px"></i>
+                </div>
+                <p style="font-size: 1rem; color:white;margin-bottom:0">Copyright © <span
+                        style="color: var(--orange);">TechLambda</span> 2024</p>
+                <div></div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- Script Links -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./script.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js "></script>
+
+    <!-- <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script> -->
+</body>
+
+</html>
